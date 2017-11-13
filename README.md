@@ -48,7 +48,7 @@
       isFormCommitable
         ✓ Присутствует
         Если state.step === 1
-          ✓ Должен возвращать true если state.firstName !== '' && state.lastName !== '' && state.email !== '' && state.email.includes('@')
+          ✓ Должен возвращать true если state.firstName !== '' && state.lastName !== '' && state.email !== '' &&
           ✓ Должен возвращать false если state.firstName === '' && state.lastName !== '' && state.email !== '' && state.email.includes('@')
           ✓ Должен возвращать false если state.firstName !== '' && state.lastName === '' && state.email !== '' && state.email.includes('@') (10ms)
           ✓ Должен возвращать false если state.firstName !== '' && state.lastName !== '' && state.email === '' && state.email.includes('@')
